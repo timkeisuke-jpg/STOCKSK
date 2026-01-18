@@ -1,0 +1,21 @@
+import React from 'react';
+import { Search, BookOpen, Clock, Brain, Check, X, ArrowRight, RotateCw, Plus, Trash2, Edit2, Mic, Volume2, Layers, PenTool, Library, GraduationCap, Sparkles, LucideProps } from 'lucide-react';
+
+export const SearchIcon = (props: LucideProps) => <Search {...props} />;
+export const BookIcon = (props: LucideProps) => <BookOpen {...props} />;
+export const HistoryIcon = (props: LucideProps) => <Clock {...props} />;
+export const BrainIcon = (props: LucideProps) => <Brain {...props} />;
+export const CheckIcon = (props: LucideProps) => <Check {...props} />;
+export const XIcon = (props: LucideProps) => <X {...props} />;
+export const ArrowRightIcon = (props: LucideProps) => <ArrowRight {...props} />;
+export const RefreshIcon = (props: LucideProps) => <RotateCw {...props} />;
+export const PlusIcon = (props: LucideProps) => <Plus {...props} />;
+export const TrashIcon = (props: LucideProps) => <Trash2 {...props} />;
+export const EditIcon = (props: LucideProps) => <Edit2 {...props} />;
+export const MicIcon = (props: LucideProps) => <Mic {...props} />;
+export const VolumeIcon = (props: LucideProps) => <Volume2 {...props} />;
+export const FolderIcon = (props: LucideProps) => <Layers {...props} />;
+export const PenIcon = (props: LucideProps) => <PenTool {...props} />;
+export const LibraryIcon = (props: LucideProps) => <Library {...props} />;
+export const GraduationCapIcon = (props: LucideProps) => <GraduationCap {...props} />;
+export const SparklesIcon = (props: LucideProps) => <Sparkles {...props} />;

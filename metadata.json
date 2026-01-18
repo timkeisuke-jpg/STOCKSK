@@ -1,0 +1,7 @@
+{
+  "name": "LingoCard AI",
+  "description": "An AI-powered vocabulary learning assistant for Economics students learning English and Korean. Converts searches into flashcards with deep context and nuance.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
