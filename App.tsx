@@ -257,7 +257,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen pb-24 text-[#1F1F1F] font-sans selection:bg-[#D2E3FC]">
+    <div className="min-h-screen pb-24 text-[#1F1F1F] font-sans selection:bg-[#D2E3FC] bg-red-200 border-4 border-blue-500">
       
       {/* Header - Transparent/Minimal */}
       {activeTab !== 'search' && (
