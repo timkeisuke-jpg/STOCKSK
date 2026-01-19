@@ -1,14 +1,7 @@
 const CACHE_NAME = 'stocksk-cache-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/static/js/bundle.js',
-  '/static/css/main.css',
-  '/icons/apple-touch-icon.png',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png',
-  '/icons/favicon.svg',
-  '/icons/mask-icon.svg'
+  '/index.html'
 ];
 
 self.addEventListener('install', event => {
