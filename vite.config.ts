@@ -15,6 +15,7 @@ export default defineConfig(({ mode }) => {
         react(),
         VitePWA({
           registerType: 'autoUpdate',
+          injectRegister: 'auto',
           // includeAssetsは削除（アイコンなしの要望のため）
           manifest: {
             filename: 'manifest.json',
@@ -24,6 +25,7 @@ export default defineConfig(({ mode }) => {
             theme_color: '#1967D2',
             background_color: '#F0F4F9',
             display: 'standalone',
+            publicPath: '/',
             // iconsは設定しない（アイコンなしの要望のため）
           },
           workbox: {
