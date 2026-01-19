@@ -1,9 +1,0 @@
-{
-  "name": "STOCKSK",
-  "short_name": "STOCKSK",
-  "description": "Stock knowledge. Invest in yourself.",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#F0F4F9",
-  "theme_color": "#1967D2"
-}
