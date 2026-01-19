@@ -1,5 +1,21 @@
 import React, { useState, useEffect } from 'react';
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 import { generateVocabularyCard, recognizeHandwriting } from './services/geminiService';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCzZQYJxGr9shN4sDD0YlYd4hI_SB3foGo",
+  authDomain: "gen-lang-client-0896315118.firebaseapp.com",
+  projectId: "gen-lang-client-0896315118",
+  storageBucket: "gen-lang-client-0896315118.firebasestorage.app",
+  messagingSenderId: "275198874465",
+  appId: "1:275198874465:web:39421356f1b57ce42e2b20",
+  measurementId: "G-57JL1GEYD0"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 import { CardView } from './components/CardView';
 import { ReviewMode } from './components/ReviewMode';
 import { HandwritingInput } from './components/HandwritingInput';
