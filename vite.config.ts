@@ -17,6 +17,7 @@ export default defineConfig(({ mode }) => {
           registerType: 'autoUpdate',
           // includeAssetsは削除（アイコンなしの要望のため）
           manifest: {
+            filename: 'manifest.json',
             name: 'STOCKSK',
             short_name: 'STOCKSK',
             description: 'Stock knowledge. Invest in yourself.',
